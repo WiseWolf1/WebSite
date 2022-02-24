@@ -44,35 +44,35 @@
       <button onclick="location.href='https://mail.google.com/mail'">Connect</button>
     </div>
   </div>
-  <div id="rwc"></div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var RWC = richWebChat.default
-      var app = new RWC({
-        container: '#rwc', // DOM element selector where chat will be inserted
-        chatUrl: 'https://chat.valentabpo.onereach.ai/y2L3j9GsTDK1yvKBgWbpFw/0hz4oy0', // url of your chat. required
-        autoExpandDelay: 15000,
-        position: 'bottom-right',
-        inviteMessage: "",
-        inviteButton: "",
-        inviteImage: undefined,
-        showCloseIcon: false,
-        inviteTimeout: 5000,
-        allowChangeChatWindowSize: false,
-        allowDrag: true,
-        widgetColor: '#409fec',
-        allowStartNewConversation: false,
-        thumbLogo: undefined,
-        animation: 'pulse', // 'pulse', 'ring', 'zoom',
-        appearance: {
-          blurredBackground: false
-        },
-        pageData: {
-          fname: 'foo'
-        }
-      })
-    });
-  </script>
+<div id="rwc"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var RWC = richWebChat.default
+    var app = new RWC({
+      container: '#rwc', // DOM element selector where chat will be inserted
+      chatUrl: 'https://chat.valentabpo.onereach.ai/y2L3j9GsTDK1yvKBgWbpFw/0hz4oy0', // url of your chat. required
+      autoExpandDelay: 80000,
+      position: 'bottom-right',
+      inviteMessage: "",
+      inviteButton: "",
+      inviteImage: undefined,
+      showCloseIcon: false,
+      inviteTimeout: 5000,
+      allowChangeChatWindowSize: false,
+      allowDrag: true,
+      widgetColor: '#000000',
+      allowStartNewConversation: false,
+      thumbLogo: 'https://uploads-ssl.webflow.com/6098f9010b81b39fb327df3c/60990ed5d930970e86e4d3ee_Ephoto360.com_160990e92a986a%20aaa.jpg',
+      animation: 'zoom', // 'pulse', 'ring', 'zoom',
+      appearance: {
+        blurredBackground: false
+      },
+      pageData: {
+        fname: 'foo'
+      }
+    })
+  });
+</script>
             
 
 </body>
